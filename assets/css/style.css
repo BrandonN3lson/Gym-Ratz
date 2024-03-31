@@ -353,4 +353,9 @@ footer {
     .hero-text {
         font-size: 26px;
     }
+
+    /*About section*/
+    .about-text {
+        font-size: 20px;
+    }
 }
