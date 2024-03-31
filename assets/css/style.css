@@ -18,10 +18,15 @@ body {
 }
 
 main {
+    padding: 0 16px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+#index-page-main {
+    padding: 0;
 }
 
 h1,
