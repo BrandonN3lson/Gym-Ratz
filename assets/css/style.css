@@ -124,6 +124,7 @@ header {
     padding: 10px;
     color: white;
     height: 50vh;
+    font-size: xx-large;
 }
 
 .hero-text span {
@@ -439,13 +440,12 @@ footer {
     }
 
     /*Hero Section*/
-    /*Hero Section*/
     #hero {
         margin-top: 57px;
     }
 
     .hero-text {
-        font-size: 26px;
+        font-size: 30px;
     }
 
     /*About section*/
