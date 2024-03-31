@@ -139,10 +139,8 @@ header {
     gap: 32px;
 }
 
-.about-text-1,
-.about-text-2,
-.about-text-3 {
-    /* border: 1px solid #000407; */
+.about-text {
+    text-align: center;
     border-radius: 10px;
     padding: 1rem;
     width: 40%;
@@ -214,6 +212,65 @@ header {
     min-width: 200px;
     height: auto;
 }
+
+/*Supplement Page Main Content*/
+
+#supplement-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000407;
+    margin: 128px 0 20px;
+    padding: 0 16px;
+  }
+
+  #supplement-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    padding: 32px;
+    gap: 32px;
+  }
+  
+  .supplement-heading-text {
+    margin: 16px 0;
+  }
+  
+  .supplement-container {
+    background-color: #ffffff;
+    box-shadow: 0px 0px 12px 0px rgba(199, 199, 199, 1);
+    border-radius: 20px;
+    padding: 24px;
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-content: space-between;
+  }
+  
+  .supplement-container h3 {
+    text-align: center;
+  }
+  
+  .benefit-list {
+    flex-grow: 1;
+  }
+  
+  .benefit-list ul {
+    padding-left: 24px;
+  }
+  
+  .benefit-list li {
+    font-size: 24px;
+  }
+  
+  .supplement-image > img {
+    width: 90%;
+    min-width: 200px;
+  }
 
 /*Footer for all pages*/
 footer {
