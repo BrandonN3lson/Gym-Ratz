@@ -98,7 +98,25 @@ header {
     color: white;
     appearance: none;
   }
+
+  /*hero section */
+  #hero {
+    background: url(/assets/images/hero-image.jpg) no-repeat center center / cover;
+    width: 100%;
+    margin-top: 98px;
+  }
   
+  .hero-text {
+    text-transform: uppercase;
+    padding: 10px;
+    color: white;
+    font-size: 40px;
+    height: 50vh;
+  }
+  
+  .hero-text span {
+    color: #ff6c00;
+  }
   @media screen and (max-width: 768px) {
     /*header and nav bar idea was taken from youtube tutorial link in readme.md*/
     header {
