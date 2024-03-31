@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
     <title>GYM RATZ</title>
 </head>
+
 <body>
     <header>
         <!--navigation bar idea was taken from youtube video, referance in ReadMe.md-->
@@ -31,10 +32,75 @@
         </nav>
 
     </header>
-    <main>
 
+    <main id="feedback">
+        <section>
+            <form action="https://formdump.codeinstitute.net" method="post" id="feedback-form">
+                <h2><i class="fa-solid fa-dumbbell"></i>Share Your thoughts!</h2>
 
+                <fieldset id="personal-info">
+                    <legend>
+                        <h4>Personal info</h4>
+                    </legend>
+                    <div>
+                        <label for="fname">Name:</label>
+                        <input type="text" name="first-name" id="fname" required />
+                    </div>
+
+                    <div>
+                        <label for="sname">Surname:</label>
+                        <input type="text" name="last-name" id="sname" required />
+                    </div>
+
+                    <div>
+                        <label for="fname">Email Address:</label>
+                        <input type="email" name="email" id="email" required />
+                    </div>
+                </fieldset>
+
+                <fieldset id="review">
+                    <legend>
+                        <h4>Review</h4>
+                    </legend>
+
+                    <div>
+                        <h5>Choose a Category you wish to review</h5>
+                        <label for="catagory">Category:</label>
+                        <select id="catagory">
+                            <option value="workout">Workout</option>
+                            <option value="Supplements">Supplements</option>
+                            <option value="both" selected>Both</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <h5>Was the workout/supplement recommendation helpful?</h5>
+                        <div id="recommendation-feedback">
+                            <label for="yes">Yes</label>
+                            <input type="radio" name="satisfied" value="yes" id="yes" required />
+
+                            <label for="no">No</label>
+                            <input type="radio" name="satisfied" value="no" id="no" required />
+                        </div>
+                    </div>
+
+                    <div>
+                        <h5>If no, let us know how to improve.</h5>
+                        <p>Or if you wish to add to the programs, let us know below!</p>
+                    </div>
+                    <div>
+                        <label for="feedback-textarea"></label>
+                        <textarea name="feedback" id="feedback-textarea" cols="20" rows="10"
+                            placeholder="Share your thoughts here!" required></textarea>
+                    </div>
+                </fieldset>
+                <div class="button-container">
+                    <button type="submit" class="submit-button">Share</button>
+                </div>
+            </form>
+        </section>
     </main>
+
     <footer>
         <div class="footer-text">
             <h3>Get in touch!</h3>
