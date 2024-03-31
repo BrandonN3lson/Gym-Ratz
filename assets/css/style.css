@@ -33,6 +33,13 @@ h5 {
     text-transform: uppercase;
     letter-spacing: 2px;
 }
+/*background images to make pages load faster*/
+#hero {
+    background: url(../images/hero-image.jpg) no-repeat center center / cover;
+}
+#feedback {
+    background: url(../images/pexels-max-vakhtbovycn-7031705.jpg) no-repeat center center / cover;
+}
 
 /*header and navigation bar, code for navigation bar was taken from a youtube video, link in readMe.md*/
 header {
@@ -113,7 +120,6 @@ header {
 /*Main content index.html*/
 /*hero section */
 #hero {
-    background: url(/assets/images/hero-image.jpg) no-repeat center center / cover;
     width: 100%;
     margin-top: 98px;
 }
@@ -281,7 +287,6 @@ header {
 
 #feedback {
     margin-top: 98px;
-    background: url(../images/pexels-max-vakhtbovycn-7031705.jpg) no-repeat center center / cover;
     flex-grow: 1;
 }
 
