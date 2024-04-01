@@ -33,13 +33,6 @@ h5 {
     text-transform: uppercase;
     letter-spacing: 2px;
 }
-/*background images to make pages load faster*/
-#hero {
-    background: url(../images/hero-image.jpg) no-repeat center center / cover;
-}
-#feedback {
-    background: url(../images/pexels-max-vakhtbovycn-7031705.jpg) no-repeat center center / cover;
-}
 
 /*header and navigation bar, code for navigation bar was taken from a youtube video, link in readMe.md*/
 header {
@@ -120,6 +113,10 @@ header {
 /*Main content index.html*/
 /*hero section */
 #hero {
+    background: url(../images/hero-image.webp) no-repeat center center / cover;
+}
+
+#hero {
     width: 100%;
     margin-top: 98px;
 }
@@ -155,6 +152,7 @@ header {
     background-color: #fff;
     color: #000407;
     box-shadow: 0px 0px 12px 0px rgba(199, 199, 199, 1);
+    font-size: 20px;
 }
 
 /*Workout page main content*/
@@ -284,6 +282,9 @@ header {
 }
 
 /*Feedback/form page Main content styling*/
+#feedback {
+    background: url(../images/pexels-max-vakhtbovycn-7031705.webp) no-repeat center center / cover;
+}
 
 #feedback {
     margin-top: 98px;
@@ -460,10 +461,6 @@ footer {
         font-size: 30px;
     }
 
-    /*About section*/
-    .about-text {
-        font-size: 20px;
-    }
 
 /*Footer Section*/
 
