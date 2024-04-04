@@ -97,11 +97,11 @@ for testing and and trouble shooting, i used the chrome dev tools while building
 ## Issues
 
   ### Tools used
-    *[Wave evaluation tool](https://wave.webaim.org/)
+  * [Wave evaluation tool](https://wave.webaim.org/)
 
    - using an input checkbox for a toggle for the dropdown navigation bar reduced the accessibility score of the wesite, if i were to re make this website i would use a button to get rid of this problem.
 
-     ![wave-evaulation tool](assets/readme-images/wave-evaluation-tool.png)
+    * [image of issue](assets/readme-images/wave-evaluation-tool.png)
 
 ## References
  - the google font style was taken from love running project
