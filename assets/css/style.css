@@ -22,6 +22,7 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    flex-grow: 1;
 }
 
 h1,
@@ -113,7 +114,7 @@ header {
 /*Main content index.html*/
 /*hero section */
 #hero {
-    background: url(../images/hero-img-1272x848\ \(1\).webp) no-repeat center center / cover;
+    background: url(../images/hero-imag.webp) no-repeat center center / cover;
 }
 
 #hero {
@@ -283,7 +284,7 @@ header {
 
 /*Feedback/form page Main content styling*/
 #feedback {
-    background: url(../images/javier-santos-guzman-9MR78HGoflw-unsplash.webp) no-repeat center center / cover;
+    background: url(../images/feedback-image.webp) no-repeat center center / cover;
 }
 
 #feedback {

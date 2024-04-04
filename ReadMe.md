@@ -6,7 +6,7 @@ Welcome to Gym Ratz, your go-to resource for workout plans and supplement recomm
 
 - [About](#about)
 - [Features](#features)
-- [Styles] (#styles)
+- [Technologies used](#technology)
 - [References](#references)
 
 ## About
@@ -15,15 +15,31 @@ Gym Ratz is a gym blog designed to assist beginners in embarking on their weight
 
 ## Features
 
-- **Workout Plan**: A workout program for beginners so that at least when they start the gym, they have a plan of action and it gives beginners a step in the right direction
-- **Supplements Recommendation**: gives a beginner an insight of what supplements you need for pre workout, during, post workout and overall good health.
-- **Feedback**: The community can give their feedback on the programs/ supplements given, as well as contribute to making the program better by giving recommendations for better workout techniques or better supplements to use.
+- **Workout Plan**: Get started with our basic workout guide to build your strength and endurance.
+- **Supplements Recommendation**: Discover recommendations for pre-workout, during workout, and post-workout supplements to help you achieve your fitness goals.
+- **Feedback**: Share your thoughts and recommendations on workout techniques and supplements with the Gym Ratz team.
 
-## Styles
+## Technologies Used
+ ### Languages Used
+  - Html
+  - Css
 
+ ### Frameworks and programs used
+  - balsamic
+  - git (for version control)
+  - github (to save and store project)
+
+ ### Design
+  - [Cooler](https://coolors.co/palettes/popular). The color pallet that was used was created using Cooler
+  - pexels (for images)
+  - unsplash (for images)
+  - pinterest (for images)
+  - [Free Convert](https://www.freeconvert.com/jpg-to-webp) (Used to convert jpg to webp for better performance.)
+  - [CSSMATIC](https://www.cssmatic.com/box-shadow) used for box-shadows
+
+ ## How to setup
 
 
 ## References
-
-The navigation bar idea was adapted from a YouTube video tutorial.
-[Link to youtube video](https://www.youtube.com/watch?v=XM7sEpl0f7c&t=8)
+ - the google font style was taken from love running project
+ - Navigation bar idea was taken from a Youtube video. [Nav bar youtube link](https://www.youtube.com/watch?v=XM7sEpl0f7c)
