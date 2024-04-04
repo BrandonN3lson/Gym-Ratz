@@ -2,6 +2,9 @@
 
 Welcome to Gym Ratz, your go-to resource for workout plans and supplement recommendations, tailored especially for beginners.
 
+![Gym Ratz index page](assets/readme-images/heading-image.png)
+[Click here](https://brandonn3lson.github.io/Gym-Ratz/) to see deployed website!
+
 ## Table of Contents
 
 - [About](#about)
@@ -16,9 +19,9 @@ Gym Ratz is a gym blog designed to assist beginners in embarking on their weight
 
 ## Features
 
-- **Workout Plan**: Get started with our basic workout guide to build your strength and endurance.
-- **Supplements Recommendation**: Discover recommendations for pre-workout, during workout, and post-workout supplements to help you achieve your fitness goals.
-- **Feedback**: Share your thoughts and recommendations on workout techniques and supplements with the Gym Ratz team.
+  - **Workout Plan**: Get started with our basic workout guide to build your strength and endurance.
+  - **Supplements Recommendation**: Discover recommendations for pre-workout, during workout, and post-workout supplements to help you achieve your fitness goals.
+  - **Feedback**: Share your thoughts and recommendations on workout techniques and supplements with the Gym Ratz team.
 
 ## Technologies Used
  ### Languages Used
@@ -38,29 +41,26 @@ Gym Ratz is a gym blog designed to assist beginners in embarking on their weight
   - [Free Convert](https://www.freeconvert.com/jpg-to-webp) (Used to convert jpg to webp for better performance.)
   - [CSSMATIC](https://www.cssmatic.com/box-shadow) used for box-shadows
 
- ## Deployment
+## Deployment
 
-Github Pages was used to deploy the live website. The instructions to achieve this are below:
-
-1. Log in (or sign up) to Github.
-2. Find the repository for this project, Gym Ratz.
-3. Click on the Settings link.
-4. Click on the Pages link on the left hand side.
-5. In the Source section, choose main from the drop down select branch menu. Select Root from the drop down select folder menu.
-6. Click Save. Your live Github Pages site is now deployed at the URL shown.
+  Github Pages was used to deploy the live website. The instructions to achieve this are below:
+  1. Log in (or sign up) to Github.
+  2. Find the repository for this project, Gym Ratz.
+  3. Click on the Settings link.
+  4. Click on the Pages link on the left hand side.
+  5. In the Source section, choose main from the drop down select branch menu. Select Root from the drop down select folder menu.
+  6. Click Save. Your live Github Pages site is now deployed at the URL shown.
 
 ### Local Development
 
 #### How to Fork
 
 To fork the repository:
-
 1. Log in (or sign up) to Github.
 2. Go to the repository for this project, brandonn3lson/Gym-Ratz.
 3. Click the Fork button in the top right corner.
 
 ## Testing and Validating
-
 for testing and and trouble shooting, i used the chrome dev tools while building the website to fix any issues while working through the project.
  
   ### W3C validator
@@ -73,30 +73,35 @@ for testing and and trouble shooting, i used the chrome dev tools while building
   - #### index page
     ##### Mobile
     ![index page lighthouse report](assets/readme-images/index-mobile-lighthouse.png)
-
     ##### Desktop
     ![index page lighthouse report desktop](assets/readme-images/index-page-website-lighthouse.png)
 
   - #### Workout page
     ##### Mobile
     ![Workout page lighthouse report](assets/readme-images/workout-mobile-lighthouse.png)
-
     ##### Desktop
     ![Workout page lighthouse report desktop](assets/readme-images/workout-website-lighthouse.png)
 
-  - #### supplements page
+  - #### Supplements page
     ##### Mobile
     ![Supplements page lighthouse report](assets/readme-images/supplements-mobile-lighthouse.png)
-
     ##### Desktop
     ![Supplements page lighthouse report desktop](assets/readme-images/supplements-desktop-lighthouse.png)
 
   - #### Feedback page
     ##### Mobile
     ![Feedback page lighthouse report](assets/readme-images/feedback-mobile-lighthouse.png)
-
     ##### Desktop
     ![Feedback page lighthouse report desktop](assets/readme-images/feebback-desktop-lighthouse.png)
+
+## Issues
+
+  ### Tools used
+    *[Wave evaluation tool](https://wave.webaim.org/)
+
+   - using an input checkbox for a toggle for the dropdown navigation bar reduced the accessibility score of the wesite, if i were to re make this website i would use a button to get rid of this problem.
+
+     ![wave-evaulation tool](assets/readme-images/wave-evaluation-tool.png)
 
 ## References
  - the google font style was taken from love running project
