@@ -7,6 +7,7 @@ Welcome to Gym Ratz, your go-to resource for workout plans and supplement recomm
 - [About](#about)
 - [Features](#features)
 - [Technologies used](#technology)
+- [Deployment](#deployment)
 - [References](#references)
 
 ## About
@@ -37,8 +38,65 @@ Gym Ratz is a gym blog designed to assist beginners in embarking on their weight
   - [Free Convert](https://www.freeconvert.com/jpg-to-webp) (Used to convert jpg to webp for better performance.)
   - [CSSMATIC](https://www.cssmatic.com/box-shadow) used for box-shadows
 
- ## How to setup
+ ## Deployment
 
+Github Pages was used to deploy the live website. The instructions to achieve this are below:
+
+1. Log in (or sign up) to Github.
+2. Find the repository for this project, Gym Ratz.
+3. Click on the Settings link.
+4. Click on the Pages link on the left hand side.
+5. In the Source section, choose main from the drop down select branch menu. Select Root from the drop down select folder menu.
+6. Click Save. Your live Github Pages site is now deployed at the URL shown.
+
+### Local Development
+
+#### How to Fork
+
+To fork the repository:
+
+1. Log in (or sign up) to Github.
+2. Go to the repository for this project, brandonn3lson/Gym-Ratz.
+3. Click the Fork button in the top right corner.
+
+## Testing and Validating
+
+for testing and and trouble shooting, i used the chrome dev tools while building the website to fix any issues while working through the project.
+ 
+  ### W3C validator
+  * [Index Page HTML](assets/readme-images/index-w3c-validator.png)
+  * [Workout Page Html](assets/readme-images/workout-w3c-validator.png)
+  * [Supplements Page Html](assets/readme-images/supplement-w3c-validator.png)
+  * [Feedback Page Html](assets/readme-images/feedback-w3c-validator.png)
+
+  ### Lighthouse Analysis Report
+  - #### index page
+    ##### Mobile
+    ![index page lighthouse report](assets/readme-images/index-mobile-lighthouse.png)
+
+    ##### Desktop
+    ![index page lighthouse report desktop](assets/readme-images/index-page-website-lighthouse.png)
+
+  - #### Workout page
+    ##### Mobile
+    ![Workout page lighthouse report](assets/readme-images/workout-mobile-lighthouse.png)
+
+    ##### Desktop
+    ![Workout page lighthouse report desktop](assets/readme-images/workout-website-lighthouse.png)
+
+  - #### supplements page
+    ##### Mobile
+    ![Supplements page lighthouse report](assets/readme-images/supplements-mobile-lighthouse.png)
+
+    ##### Desktop
+    ![Supplements page lighthouse report desktop](assets/readme-images/supplements-desktop-lighthouse.png)
+
+  - #### Feedback page
+    ##### Mobile
+    ![Feedback page lighthouse report](assets/readme-images/feedback-mobile-lighthouse.png)
+
+    ##### Desktop
+    ![Feedback page lighthouse report desktop](assets/readme-images/feebback-desktop-lighthouse.png)
 
 ## References
  - the google font style was taken from love running project
